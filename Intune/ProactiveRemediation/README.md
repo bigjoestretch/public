@@ -97,5 +97,3 @@ Below is a screenshot of the reg key value and scheduled task which the scripts 
 ---
 
 ![cover](images/cover.png)
-
-(http://advsys.net/ken/util/pngout.htm).
