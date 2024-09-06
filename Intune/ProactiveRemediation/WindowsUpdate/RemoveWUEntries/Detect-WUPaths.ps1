@@ -6,7 +6,7 @@
     Version History:  
     1.0 - 24/09/06 - Initial release of this script.  
 .SYNOPSIS  
-    A custom Intune proactive remeidation detection script to detect if any WindowsUpdate values
+    A custom Intune proactive remediation detection script to detect if any WindowsUpdate values
     in the registry.
 .DESCRIPTION  
     This proactive remediation script checks the windows registry to detect any values set in both
