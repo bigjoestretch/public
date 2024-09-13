@@ -50,7 +50,7 @@ return $NetskopeStatus | ConvertTo-Json -Compress
 #{
 #    "Rules":[ 
 #        { 
-#           "SettingName":"NetskopeStatus",
+#           "SettingName":"$NetskopeStatus",
 #           "Operator":"NotEquals",
 #           "DataType":"String",
 #           "Operand":"false",
@@ -58,8 +58,8 @@ return $NetskopeStatus | ConvertTo-Json -Compress
 #           "RemediationStrings":[ 
 #              { 
 #                 "Language":"en_US",
-#                 "Title":"Netskope must be running.",
-#                 "Description": "Please make sure that Netskope is running on your machine."
+#                 "Title":"The Netskope client is not running.",
+#                 "Description": "Your device must have the Netskope client running and enabled. Try restarting your device, and then follow the steps here: https://docs.netskope.com/en/netskope-client-troubleshooting-guide/. If you do this and get this message again, contact Corporate IT at itsupport@intelycare.com."
 #              }
 #           ]
 #        }
