@@ -9,8 +9,8 @@
            "RemediationStrings":[ 
               { 
                  "Language":"en_US",
-                 "Title":"ZScaler Internet Access must be running.",
-                 "Description": "Please make sure that the ZScaler Internet Access is running."
+                 "Title":"The ZScaler Client Connector service is not running.",
+                 "Description": "Your device must have the ZScaler Client Connector running and enabled. Try restarting your device, and then follow the steps here: https://help.zscaler.com/client-connector/using-zscaler-client-connector. If you do this and get this message again, contact Corporate IT at itsupport@intelycare.com."
               }
            ]
         }
