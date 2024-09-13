@@ -9,8 +9,8 @@
            "RemediationStrings":[ 
               { 
                  "Language":"en_US",
-                 "Title":"Cisco Umbrella must be running.",
-                 "Description": "Please make sure that the Cisco Umbrella client is running on your machine."
+                 "Title":"The Cisco Umbrella client is not running.",
+                 "Description": "Your device must have the Cisco Umbrella client running and enabled. Try restarting your device, and then follow the steps here: https://docs.umbrella.com/deployment-umbrella/docs/appx-c-troubleshooting. If you do this and get this message again, contact Corporate IT at itsupport@intelycare.com."
               }
            ]
         }
