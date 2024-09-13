@@ -15,4 +15,4 @@ No Microsoft graph permissions are needed to run this PowerShell script.
 
 # Usage
 
-When the script is run, this Microsoft Intune Proactive Remeidation script is designed to detect and Change the WinVer and OEM Information found on a Windows device to something some tailored to your needs.
+When the script is run, this Microsoft Intune Proactive Remeidation script is detects and changes the WinVer and OEM Information found on a Windows device to something some tailored to your needs.
