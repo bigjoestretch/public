@@ -10,7 +10,7 @@
     This script is used as detection script with Proactive Remediations in the Microsoft Intune admin center.
 .DESCRIPTION
     Manage a local administrator account in Windows, which currently consists of:
-    - XXX-XXXX
+    - XXXX-XXXXX
 .LINK
     Inspiration in creating this was provide y steps found in this link:
     
