@@ -4,7 +4,7 @@
     Author: Joel Cottrell  
     Requires: PowerShell v2 
     Version History:  
-    1.0 - 24/08/30 - Initial release of this script.  
+    2.0 - 24/09/13 - Initial release of this script.  
 .SYNOPSIS  
     A custom Intune compliance detection script to detect if Netskope is running or not.
 .DESCRIPTION  
@@ -50,7 +50,7 @@ return $NetskopeStatus | ConvertTo-Json -Compress
 #{
 #    "Rules":[ 
 #        { 
-#           "SettingName":"$NetskopeStatus",
+#           "SettingName":"NetskopeStatus",
 #           "Operator":"NotEquals",
 #           "DataType":"String",
 #           "Operand":"false",
