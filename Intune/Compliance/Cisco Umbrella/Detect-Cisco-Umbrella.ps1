@@ -8,11 +8,11 @@
 .SYNOPSIS  
     A custom Intune compliance detection script to detect if the Cisco Umbrella client is running or not.
 .DESCRIPTION  
-    The custom compliance detection script (used in an intune Compliance configuration)
+    The custom compliance detection script (used in an Intune Compliance configuration)
     checks whether the Cisco Umbrella client/service is running and outputs a true or 
     false JSON value.
 
-    Inspiration in creating this was provide y steps found in this link:
+    Inspiration in creating this was provide by steps found in this link:
     
     https://www.nielskok.tech/intune/zscaler-custom-compliance-in-intune/
     https://jannikreinhard.com/2023/02/26/how-to-use-custom-compliance-script-example-script/
