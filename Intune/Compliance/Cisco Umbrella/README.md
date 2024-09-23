@@ -1,6 +1,6 @@
 # Microsoft Intune - Custom Compliance - Cisco Secure Client
 
-This Intune custom compliance policy is used to check the status of the Cisco Umbrella client on a Windows machine. It attempts to detect whether the Cisco Umbrella client is running on the machine. Based on the results, it wil mark the Windows machine compliant or not.
+This Intune custom compliance policy is used to detect the status of the Cisco Umbrella client on a Windows machine. It attempts to detect whether the Cisco Umbrella client is running on the machine. Based on the results, it wil mark the Windows machine compliant or not.
 
 - [Configure the Application Identity service](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/windows-defender-application-control/applocker/configure-the-application-identity-service)
 
