@@ -19,7 +19,7 @@ Pending
 For compliance the expected results are:
 
 - ServiceState:4 ([Running](https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicecontrollerstatus?view=dotnet-plat-ext-8.0))
-- ServiceStartupMode:2 ([Automatic](https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicestartmode?view=dotnet-plat-ext-8.0))
+- ServiceStartupMode:3 ([Manual](https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicestartmode?view=dotnet-plat-ext-8.0))
 
 ## Check Compliance Results
 
