@@ -1,6 +1,6 @@
 # Microsoft Intune - Custom Compliance - Zscaler Client
 
-This Intune custom compliance policy is used to check the status of the Zsclaer Client Connector on a Windows machine. It attempts to detect whether the Zscaler Client Connector is running on the machine. Based on the results, it wil mark the Windows machine compliant or not.
+This Intune custom compliance policy is used to check the status of the Zsclaer Client Connector on a Windows machine. It attempts to checks whether your Internet connection runs through the ZScaler Internet Service. Based on the results, it wil mark the Windows machine compliant or not.
 
 ## Intune Configuration Policy
 
