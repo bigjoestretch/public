@@ -4,7 +4,7 @@ This Intune custom compliance policy is used to detect the status of the Cisco U
 
 ## Intune Configuration Policy
 
-Pending
+N/A
 
 ## Intune Compliance Detection Script
 
