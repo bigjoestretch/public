@@ -1,67 +1,78 @@
-<#  
-.NOTES  
-    Name: Detect-Cisco-Umbrella.ps1  
-    Author: Joel Cottrell  
-    Requires: PowerShell v2 
-    Version History:  
-    1.0 - 24/09/13 - Initial release of this script.  
-.SYNOPSIS  
-    A custom Intune compliance detection script to detect if the Cisco Umbrella client is running or not.
-.DESCRIPTION  
-    The custom compliance detection script (used in an Intune Compliance configuration)
-    checks whether the Cisco Umbrella client/service is running and outputs a true or 
-    false JSON value.
+<#	
+.NOTES
+	Name: Detect-Cisco-Umbrella-v1.ps1 
+	Author: Joel Cottrell
+	Copyright: GPLv3
+	Tags: intune endpoint MEM cisco umbrella
 
-    Inspiration in creating this was provide by steps found in this link:
+.LICENSEURI
+https://github.com/bigjoestretch/public/blob/main/LICENSE
+
+.PROJECTURI
+https://github.com/bigjoestretch/public/tree/main/Intune/Compliance/Cisco%20Umbrella
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+v1.0 - 24/09/23 - Initial release of this script.
+	
+.SYNOPSIS
+Custom compliance script to report Cisco Umbrella Client service state and startup configuration
+
+.DESCRIPTION
+This script checks the Cisco Umbrella Client service Startup Type and Service state. The service must be 'running' and startup must be set to 'Automatic'
     
-    https://www.nielskok.tech/intune/zscaler-custom-compliance-in-intune/
-    https://jannikreinhard.com/2023/02/26/how-to-use-custom-compliance-script-example-script/
+.EXAMPLE
+Example output: {"ServiceState":4,"ServiceStartupMode":3}
 
-#> 
+#>
 
-# Function to check if the Cisco Umbrella Client is running
-function Is-CiscoUmbrellaRunning {
-    # Get all running processes
-    $processes = Get-Process
+$ServiceState = get-service -name "csc_umbrellaagent" | Select-object Status
+$ServiceStartupMode = get-service -name "csc_umbrellaagent" | Select-object StartType
 
-    # Check if any process name contains 'Cisco Umbrella'
-    foreach ($process in $processes) {
-        if ($process.Description -like "*Cisco Umbrella*") {
-            return $true
-        }
-    }
-    return $false
+$output = @{
+	ServiceState = $ServiceState.Status
+	ServiceStartupMode = $ServiceStartupMode.StartType
 }
 
-# Check if Cisco Umbrella is running and print the result
-#if (Is-CiscoUmbrellaRunning) {
-#    Write-Output "Cisco Umbrella is running."
-#} else {
-#    Write-Output "Cisco Umbrella is not running."
-#}
-
-# Detection script outputs the JSON value for the Cisco Umbrella result
-$checkciscoumbrella = Is-CiscoUmbrellaRunning
-$CiscoUmbrellaStatus = @{"CiscoUmbellaStatus" = $checkciscoumbrella}
-
-return $CiscoUmbrellaStatus | ConvertTo-Json -Compress
+return $output | ConvertTo-Json -Compress
 
 # This section below should be saved As a JSON file and added/imported to an Intune Custom Compliance policy):
 #{
 #    "Rules":[ 
 #        { 
-#           "SettingName":"CiscoUmbrellaStatus",
-#           "Operator":"NotEquals",
-#           "DataType":"String",
-#           "Operand":"false",
+#           "SettingName":"ServiceState",
+#           "Operator":"IsEquals",
+#           "DataType":"Int64",
+#           "Operand":4,
 #           "MoreInfoUrl":"https://docs.umbrella.com/deployment-umbrella/docs/appx-c-troubleshooting",
 #           "RemediationStrings":[ 
 #              { 
-#                 "Language":"en_US",
-#                 "Title":"The Cisco Umbrella client is not running.",
+#                 "Language": "en_US",
+#                 "Title": "The Cisco Secure Client service must be running. Value discovered was {ActualValue}.",
 #                 "Description": "Your device must have the Cisco Umbrella client running and enabled. Try restarting your device, and then follow the steps here: https://docs.umbrella.com/deployment-umbrella/docs/appx-c-troubleshooting. If you do this and get this message again, contact Corporate IT at itsupport@intelycare.com."
 #              }
 #           ]
-#        }
+#        },
+#        { 
+#         "SettingName":"ServiceStartupMode",
+#         "Operator":"IsEquals",
+#         "DataType":"Int64",
+#         "Operand":3,
+#         "MoreInfoUrl":"https://docs.umbrella.com/deployment-umbrella/docs/appx-c-troubleshooting",
+#         "RemediationStrings":[ 
+#            { 
+#               "Language": "en_US",
+#               "Title": "The Cisco Secure Client service startup must be set to Manual. Value discovered was {ActualValue}.",
+#               "Description": "Your device must have the Cisco Umbrella client running and enabled. Try restarting your device, and then follow the steps here: https://docs.umbrella.com/deployment-umbrella/docs/appx-c-troubleshooting. If you do this and get this message again, contact Corporate IT at itsupport@intelycare.com."
+#            }
+#         ]
+#      }
 #     ]
-#}
+#    }
