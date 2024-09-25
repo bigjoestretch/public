@@ -30,6 +30,7 @@ This script is used to install the Azul Zulu Build of OpenJDK onto a Windows dev
 
 Inspiration in creating this was provide by steps found in this link:
 
+https://www.azul.com/downloads/?package=jre#zulu
 https://docs.azul.com/core/install/windows
     
 .EXAMPLE
