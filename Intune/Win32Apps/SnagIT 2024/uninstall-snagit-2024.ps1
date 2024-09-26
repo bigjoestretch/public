@@ -36,4 +36,4 @@ This script is used to uninstall the SnagIT 2024 application from a Windows devi
 #Silently uninstall SnagIT 2024
 
 #msiexec /x (Get-Package 'Snagit 2024*').FastPackageReference /qn
-UninstallerTool_1_2_0.exe -product snagit -remove 24
+.\UninstallerTool_1_2_0.exe -product snagit -remove 24
