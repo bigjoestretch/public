@@ -17,7 +17,7 @@ This Intune Windows app (Win32) deploys the Snagit 2024 application to assigned 
 - Install behavior - System
 - Device restart behavior - App install may force a device restart
 - Return codes:
-              - 0 Success
+              -- 0 Success
               - 1707 Success
               3010 Soft reboot
               1641 Hard reboot
