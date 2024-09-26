@@ -5,7 +5,6 @@ This Intune Windows app (Win32) deploys the Snagit 2024 application to assigned 
 ## Intune Windows app (Win32) Configuration
 Below are the settings configured under the ***Program*** section of the app configuration:
 
-
 | Description | Value |
 | --- | --- |
 | Install command | **powershell.exe -ExecutionPolicy Bypass -File [install-snagit-2024.ps1](./install-snagit-2024.ps1)** |
