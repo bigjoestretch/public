@@ -2,7 +2,7 @@
 
 This repository contains Windows app (Win32) scripts used to deploy various apps using Microsoft Intune.
 
-Here is a list of apps currently listed in this repo:
+Here is a list of apps I currently have listed in this repo:
 
 ## Apps
 
