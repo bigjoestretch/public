@@ -5,24 +5,20 @@ This Intune Windows app (Win32) deploys the Snagit 2024 application to assigned 
 ## Intune Windows app (Win32) Configuration
 Below are the settings configured under the ***Program*** section of the app configuration:
 
-- Install command -   powershell.exe -ExecutionPolicy Bypass -File [install-snagit-2024.ps1](./install-snagit-2024.ps1)
 
-- Uninstall command - powershell.exe -ExecutionPolicy Bypass -File [uninstall-snagit-2024.ps1](./uninstall-snagit-2024.ps1)
-
-| Setting Description | Value |
+| Description | Value |
 | --- | --- |
+| Install command | **powershell.exe -ExecutionPolicy Bypass -File [install-snagit-2024.ps1](./install-snagit-2024.ps1)** |
+| Uninstall command | **powershell.exe -ExecutionPolicy Bypass -File [uninstall-snagit-2024.ps1](./uninstall-snagit-2024.ps1)** |
 | Installation time required (mins) | **60** |
 | Allow available uninstall | **Yes** |
 | Install behavior | **System** |
 | Device restart behavior | **App install may force a device restart** |
-
-| Return codes | Value |
-| --- | --- |
-| 0 | **Success** |
-| 1707 | **Success** |
-| 3010 | **Soft reboot** |
-| 1641 | **Hard reboot** |
-| 1618 | **Retry** |
+| Return codes | **0 Success** |
+|  | **1707 Success** |
+|  | **3010 Soft reboot** |
+|  | **1641 Hard reboot** |
+|  | **1618 Retry** |
 
 ## Intune Windows app (Win32) Requirements
 Below are the settings configured under the ***Requirements*** section of the app configuration:
@@ -61,4 +57,11 @@ Below are the settings configured under the ***Dependencies*** section of the ap
 
 | Description | Value |
 | --- | --- |
-| Dependencies | **No Dependencies** |                                     
+| Dependencies | **No Dependencies** |
+
+### Intune Windows app (Win32) Supercedence
+Below are the settings configured under the ***Supercedence*** section of the app configuration:
+
+| Description | Value |
+| --- | --- |
+| Supercedence | **No Supercedence** |
