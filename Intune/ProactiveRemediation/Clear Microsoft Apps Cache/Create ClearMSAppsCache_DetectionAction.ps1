@@ -10,7 +10,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/tree/main/Intune/ProactiveRemediation/Clear Microsoft Apps Cache
+https://github.com/bigjoestretch/public/tree/main/Intune/ProactiveRemediation/Clear%20Microsoft%20Apps%20Cache
 
 
 .ICONURI
