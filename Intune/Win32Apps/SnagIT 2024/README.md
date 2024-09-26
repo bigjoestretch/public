@@ -12,7 +12,7 @@ Uninstall command - powershell.exe -ExecutionPolicy Bypass -File uninstall-snagi
 
 [Uninstall Snagit 2024](./uninstall-snagit-2024.ps1)
 
-Installation time required (mins) - 60
+ - Installation time required (mins) - 60
 Allow available uninstall - Yes
 Install behavior - System
 Device restart behavior - App install may force a device restart
