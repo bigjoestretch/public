@@ -14,6 +14,7 @@ Below are the settings configured under the ***Program*** section of the app con
 | Allow available uninstall | **Yes** |
 | Install behavior | **System** |
 | Device restart behavior | **App install may force a device restart** |
+|  |  |
 | Return codes | **0 Success** |
 |  | **1707 Success** |
 |  | **3010 Soft reboot** |
@@ -41,11 +42,8 @@ Below are the settings configured under the ***Detection rules*** section of the
 | Description | Value |
 | --- | --- |
 | Rules format | **Manually configure detection rules** |
-
-### Detection rules
-
-| Description | Value |
-| --- | --- |
+|  |  |
+| **Detection rules** |  |
 | Rule type | **File** |
 | Path | %ProgramFiles%\TechSmith\Snagit 2024\ |
 | File or folder | **SnagitEditor.exe** |
