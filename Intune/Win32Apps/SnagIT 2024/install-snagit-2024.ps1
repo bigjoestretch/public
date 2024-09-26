@@ -40,4 +40,4 @@ https://assets.techsmith.com/Docs/Snagit-2024-MSI-Installation-Guide.pdf
 
 # Install SnagIT 2024 silently without a restart
 #msiexec.exe /I "%~dp0snagit.msi" TRANSFORMS="%~dp0snagit.mst" /quiet /norestart
-msiexec.exe /i "snagit.msi" TRANSFORMS="snagit.mst" /qn /norestart
+msiexec /i "snagit.msi" TRANSFORMS="snagit.mst" /qn /norestart
