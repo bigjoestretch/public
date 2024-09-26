@@ -4,21 +4,21 @@ This Intune Windows app (Win32) deploys the Snagit 2024 application to assigned 
 
 ## Intune Windows app (Win32) Configuration
 
-Install command -   powershell.exe -ExecutionPolicy Bypass -File install-snagit-2024.ps1
+- Install command -   powershell.exe -ExecutionPolicy Bypass -File install-snagit-2024.ps1
 
 [Install Snagit 2024](./install-snagit-2024.ps1)
 
-Uninstall command - powershell.exe -ExecutionPolicy Bypass -File uninstall-snagit-2024.ps1
+- Uninstall command - powershell.exe -ExecutionPolicy Bypass -File uninstall-snagit-2024.ps1
 
 [Uninstall Snagit 2024](./uninstall-snagit-2024.ps1)
 
  - Installation time required (mins) - 60
-Allow available uninstall - Yes
-Install behavior - System
-Device restart behavior - App install may force a device restart
-Return codes:
-              0 Success
-              1707 Success
+- Allow available uninstall - Yes
+- Install behavior - System
+- Device restart behavior - App install may force a device restart
+- Return codes:
+              - 0 Success
+              - 1707 Success
               3010 Soft reboot
               1641 Hard reboot
               1618 Retry
