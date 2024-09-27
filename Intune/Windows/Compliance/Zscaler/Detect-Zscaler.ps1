@@ -10,7 +10,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/edit/main/Intune/Compliance/Zscaler
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Compliance/Zscaler
 
 .ICONURI
 
