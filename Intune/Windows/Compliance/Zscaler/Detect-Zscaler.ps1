@@ -3,10 +3,29 @@
     Name: Detect-Zscaler.ps1  
     Author: Joel Cottrell  
     Requires: PowerShell v2 
-    Version History:  
-    1.0 - 24/09/13 - Initial release of this script.  
+    Copyright: GPLv3
+	Tags: intune endpoint MEM zscaler
+
+.LICENSEURI
+https://github.com/bigjoestretch/public/blob/main/LICENSE
+
+.PROJECTURI
+https://github.com/bigjoestretch/public/edit/main/Intune/Compliance/Zscaler
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+v1.0 - 24/09/13 - Initial release of this script.
+
 .SYNOPSIS  
     A custom Intune compliance detection script to detect if the Zscaler Client Connector is running or not.
+
 .DESCRIPTION  
     The custom compliance detection script (used in an Intune Compliance configuration)
     checks whether the Zscaler client/service is running and outputs a true or 
@@ -16,6 +35,9 @@
     
     https://www.nielskok.tech/intune/zscaler-custom-compliance-in-intune/
     https://jannikreinhard.com/2023/02/26/how-to-use-custom-compliance-script-example-script/
+
+.EXAMPLE
+.\Detect-Zscaler.ps1
 
 #> 
 
