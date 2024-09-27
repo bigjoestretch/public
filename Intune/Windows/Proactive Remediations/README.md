@@ -14,9 +14,9 @@ This repository contains detection/discovery scripts and JSON files for Microsof
 
 | Artifact | Description |
 | ---------|-------------|
-| README.md | Description of the custom compliance with references to the detection script and compliance validation JSON file |
-| Detect-.ps | PowerShell detection script |
-| Detect-.json |  a JSON file that identifies the settings and value pairs that you want to use for custom compliance.|
+| README.md | Description of the custom proactive remediation with references to the detection script and remediation script |
+| Detect-.ps1 | PowerShell detection script |
+| Remediate-.ps1 |  PowerShell detection script.|
 
 ## Proactive Remediations
 
