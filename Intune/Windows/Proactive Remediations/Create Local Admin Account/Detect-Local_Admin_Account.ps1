@@ -36,7 +36,10 @@ v1.0 - 23/05/23 - Initial release of this script.
     Inspiration in creating this was provide y steps found in this link:
     
     https://cloudinfra.net/create-a-local-admin-using-intune-and-powershell/
-        
+
+.EXAMPLE
+Detect-Local_Admin_Account.ps1
+
 #>
 
 # Discovery script
