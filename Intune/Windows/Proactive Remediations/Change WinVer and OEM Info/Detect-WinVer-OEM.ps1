@@ -36,7 +36,7 @@ v1.0 - 23/12/11 - Initial release of this script.
     https://niklasrast.com/2023/10/05/elevate-your-corporate-branding-on-managed-windows-devices-with-microsoft-intune-remediations/
 
 .EXAMPLE
-PowerShell.exe -ExecutionPolicy Bypass -Command .\Detect-WinVer-OEM.ps1
+Detect-WinVer-OEM.ps1
 
 #>
 
