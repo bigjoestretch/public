@@ -7,11 +7,7 @@ The Repo is split into the folowing sections:
 
 ```
    |-Intune
-   |---Compliance
-   |---DeviceConfiguration
-   |---ProactiveRemediation
-   |---SecurityBaseline
-   |---Win32Apps
+   |---Windows
    |---macOS
    ```
 ## Disclaimer
