@@ -9,7 +9,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/tree/main/Intune/Compliance/Cisco%20Umbrella
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Win32Apps/Azul%20Zulu%20OpenJRE
 
 .ICONURI
 
