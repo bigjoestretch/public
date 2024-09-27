@@ -1,8 +1,8 @@
 <#	
 .NOTES
-	Name: Create ClearMSAppsCache_DetectionAction.ps1 
+	Name: ClearMSAppsCache_DetectionAction.ps1 
 	Author: Florian Salzmann
-  Modified by: Joel Cottrell
+  	Modified by: Joel Cottrell
 	Copyright: GPLv3
 	Tags: intune endpoint MEM microsoft365
 
@@ -32,6 +32,9 @@ This script attempts to clear the Microsoft 365 Apps cache on demand with Intune
 Inspiration in creating this was provide by steps found in this link:
 
 https://scloud.work/cleaning-up-microsoft-apps-cache-on-demand-with-intune/
+
+.EXAMPLE
+ClearMSAppsCache_DetectionAction.ps1
 
 #>
 
