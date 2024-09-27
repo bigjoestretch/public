@@ -1,13 +1,32 @@
 <#  
 .NOTES  
     Name: Remediate-WUPaths.ps1  
-    Author: Joel Cottrell  
-    Requires: PowerShell v2 
-    Version History:  
-    1.0 - 24/09/06 - Initial release of this script.  
+    Author: Joel Cottrell
+    Requires: PowerShell v5 
+    Copyright: GPLv3
+	Tags: intune endpoint MEM winver oem
+ 
+.LICENSEURI
+https://github.com/bigjoestretch/public/blob/main/LICENSE
+
+.PROJECTURI
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/WindowsUpdate/RemoveWUEntries
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+v1.0 - 24/09/06 - Initial release of this script.
+
 .SYNOPSIS  
     A custom Intune proactive remediation detection script to removes any WindowsUpdate values
     in the registry.
+
 .DESCRIPTION  
     This proactive remediation script removes any values set in both the normal WindowsUpdate
     policy key, and in both cache sets. This allows for Windows Autopatch (or to remove old entries
@@ -17,6 +36,9 @@
     
     https://conditionalaccess.uk/my-windows-autopatch-experience/
     https://github.com/Lewis-Barry/Scripts/tree/main/WindowsUpdate
+
+.EXAMPLE
+Remediate-WUPaths.ps1
 
 #> 
 
