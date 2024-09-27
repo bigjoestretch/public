@@ -12,7 +12,7 @@ N/A
 
 ## Intune Compliance JSON
 
-[Zscaler Internet Service Compliance Policy](./Detect-Zscaler.json)
+[Zscaler Internet Service Compliance Policy](./Detect-Zscaler.JSON)
 
 For compliance, the expected results are:
 
