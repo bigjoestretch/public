@@ -11,7 +11,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/Create%20Local%20Admin%20Account
 
 .ICONURI
 
