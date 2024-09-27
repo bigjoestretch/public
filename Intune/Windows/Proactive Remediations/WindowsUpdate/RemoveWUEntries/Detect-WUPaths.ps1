@@ -3,8 +3,26 @@
     Name: Detect-WUPaths.ps1  
     Author: Joel Cottrell  
     Requires: PowerShell v2 
-    Version History:  
-    1.0 - 24/09/06 - Initial release of this script.  
+    Copyright: GPLv3
+	Tags: intune endpoint MEM windows update
+ 
+.LICENSEURI
+https://github.com/bigjoestretch/public/blob/main/LICENSE
+
+.PROJECTURI
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/WindowsUpdate/RemoveWUEntries
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+v1.0 - 24/09/06 - Initial release of this script.
+
 .SYNOPSIS  
     A custom Intune proactive remediation detection script to detect if any WindowsUpdate values
     in the registry.
