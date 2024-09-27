@@ -11,7 +11,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Compliance/Cisco%20Umbrella
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations
 
 .ICONURI
 
