@@ -9,7 +9,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/tree/main/Intune/Compliance/Netskope
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Compliance/Netskope
 
 .ICONURI
 
