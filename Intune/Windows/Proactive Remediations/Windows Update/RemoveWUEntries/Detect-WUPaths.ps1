@@ -2,7 +2,7 @@
 .NOTES  
     Name: Detect-WUPaths.ps1  
     Author: Joel Cottrell  
-    Requires: PowerShell v2 
+    Requires: PowerShell v5 
     Copyright: GPLv3
 	Tags: intune endpoint MEM windows update
  
