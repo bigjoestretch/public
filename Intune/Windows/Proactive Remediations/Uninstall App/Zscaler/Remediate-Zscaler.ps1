@@ -4,9 +4,27 @@
     Version: 3.0
     Author: Joel Cottrell
     Modified by: Joel Cottrell
-    Requires: PowerShell v5
-    Version History:
-    1.0 - 24/09/13 - Initial release of this script.
+    Requires: PowerShell v5 
+    Copyright: GPLv3
+	Tags: intune endpoint MEM winver oem
+ 
+.LICENSEURI
+https://github.com/bigjoestretch/public/blob/main/LICENSE
+
+.PROJECTURI
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+v1.0 - 24/09/13 - Initial release of this script.
+
 .SYNOPSIS
     This script package will attempt to remove the Zscaler application on the targeted devices.
     This script is used as detection script with Proactive Remediations in the Microsoft Intune admin center.
