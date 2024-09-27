@@ -12,7 +12,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/Uninstall%20App/Zscaler
 
 .ICONURI
 
