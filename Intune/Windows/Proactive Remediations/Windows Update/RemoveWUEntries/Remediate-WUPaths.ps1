@@ -4,13 +4,13 @@
     Author: Joel Cottrell
     Requires: PowerShell v5 
     Copyright: GPLv3
-	Tags: intune endpoint MEM winver oem
+	Tags: intune endpoint MEM windows update
  
 .LICENSEURI
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/WindowsUpdate/RemoveWUEntries
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/Windows%20Update/RemoveWUEntries
 
 .ICONURI
 
