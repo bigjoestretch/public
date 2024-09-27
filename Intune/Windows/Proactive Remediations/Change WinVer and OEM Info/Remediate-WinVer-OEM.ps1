@@ -4,19 +4,38 @@
     Author: Niklas Rast
     Modified by: Joel Cottrell  
     Requires: PowerShell v5 
-    Version History:  
-    1.0 - 23/12/11 - Initial release of this script.  
+    Copyright: GPLv3
+	Tags: intune endpoint MEM winver oem
+ 
+.LICENSEURI
+https://github.com/bigjoestretch/public/blob/main/LICENSE
+
+.PROJECTURI
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+v1.0 - 23/12/11 - Initial release of this script.  
+
 .SYNOPSIS  
     Change the WinVer and OEM Info on a Windows device.
 .DESCRIPTION  
     This Proactive Remediation remediation script updates the WinVer and OEM Info
     entries in the registry with values you specify below.
 
-    Install:   C:\Windows\SysNative\WindowsPowershell\v1.0\PowerShell.exe -ExecutionPolicy Bypass -Command .\Remediate-WinVer-OEM.ps1
-
     Inspiration in creating this was provide by steps found in this link:
     
     https://niklasrast.com/2023/10/05/elevate-your-corporate-branding-on-managed-windows-devices-with-microsoft-intune-remediations/
+
+.EXAMPLE
+PowerShell.exe -ExecutionPolicy Bypass -Command .\Remediate-WinVer-OEM.ps1
 
 #>
 
