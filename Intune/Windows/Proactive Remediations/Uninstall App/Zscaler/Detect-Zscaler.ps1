@@ -4,7 +4,6 @@
     Version: 1.0
     Author: Joel Cottrell
     Modified by: Joel Cottrell
-    Requires: PowerShell v5
     Requires: PowerShell v5 
     Copyright: GPLv3
 	Tags: intune endpoint MEM zscaler
@@ -33,7 +32,7 @@ v1.0 - 24/08/15 - Initial release of this script.
     Detect the Zscaler application.
 
 .EXAMPLE
-$appVer = Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall, HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall | Get-ItemProperty | Where-Object {$_.DisplayName -like "Zscaler*" } | Select-Object -Property DisplayName, UninstallString	
+Detect-Zscaler.ps1
 
 #>
 
