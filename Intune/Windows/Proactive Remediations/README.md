@@ -8,15 +8,29 @@ You can access Proactive Remediations in the [Microsoft Endpoint Manager](https:
 
 Reports / Endpoint analytics / Proactive Remediations
 
+## The Intune Custom Compliance Policy Repository
+
+This repository contains detection/discovery scripts and JSON files for Microsoft Intune *Custom* comppliance scripts and policies. Each Custom compliance contains the following artifacts.
+
+| Artifact | Description |
+| ---------|-------------|
+| README.md | Description of the custom compliance with references to the detection script and compliance validation JSON file |
+| Detect-.ps | PowerShell detection script |
+| Detect-.json |  a JSON file that identifies the settings and value pairs that you want to use for custom compliance.|
+
 ## Proactive Remediations
 
-1. Enable Automatic Windows Update
-2. Restart Stopped Office C2R Service
-3. Update Office C2R
+```
+   |-Proactive Remediations
+   |---Change WinVer and OEM Info
+   |---Clear Microsoft Apps Cache
+   |---Create Local Admin Account
+   |---Uninstall App
+   |------Zscaler
+   |---Windows Update
+   ```
 
-<br>
-
-## 1. Enable Automatic Windows Update
+## 1. Change WinVer and OEM Info
 
 When moving to WUfB you may encounter a number of devices holding onto a setting to disable automatic updates which had been applied to a legacy GPO.
 
@@ -32,7 +46,7 @@ Desired State:
 
 <br>
 
-## 2. Restart Stopped Office C2R Service
+## 2. Clear Microsoft Apps Cache
 
 This proactive remediation will check if the ClickToRunSvc service is running and if not, start it. It is based on the built-in proactive remediation by Microsoft, only with changes since I noticed the original is incorrectly coded. Here is an example of the incorrect code:
 
@@ -80,7 +94,7 @@ while ((Get-Service $svcCur).Status -ne "Running")
 
 <br>
 
-## 3. Update Office C2R
+## 3. Create Local Admin Account
 
 The Office Click-to-Run updater tool is often always lagging behind on updates. This proactive remediation will check the registry for when the machine last checked for updates, and if more than 3 days ago, clear the reg key and start the Scheduled task.
 
@@ -88,10 +102,36 @@ The UpdateDetectionLastRunTime key value is in LDAP/Win32 FILETIME which needs t
 
 https://www.epochconverter.com/ldap
 
-Below is a screenshot of the reg key value and scheduled task which the scripts interact with.
+<br>
 
-![updateC2R](images/updateC2R.png)
+## 4. Uninstall App - Zscaler
 
----
+When moving to WUfB you may encounter a number of devices holding onto a setting to disable automatic updates which had been applied to a legacy GPO.
 
-![cover](images/cover.png)
+This proactive remediation will enable automatic updates if they are disabled
+
+Non-Compliant device look as follows:
+
+![AutoUpdateDisabled](images/AutoUpdateDisabled.png)
+
+Desired State:
+
+"HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate" = 0
+
+<br>
+
+## 5. Windows Update
+
+When moving to WUfB you may encounter a number of devices holding onto a setting to disable automatic updates which had been applied to a legacy GPO.
+
+This proactive remediation will enable automatic updates if they are disabled
+
+Non-Compliant device look as follows:
+
+![AutoUpdateDisabled](images/AutoUpdateDisabled.png)
+
+Desired State:
+
+"HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU\NoAutoUpdate" = 0
+
+<br>
