@@ -26,6 +26,7 @@ v1.0 - 24/09/06 - Initial release of this script.
 .SYNOPSIS  
     A custom Intune proactive remediation detection script to detect if any WindowsUpdate values
     in the registry.
+
 .DESCRIPTION  
     This proactive remediation script checks the windows registry to detect any values set in both
     the normal WindowsUpdate policy key, and in both cache sets.
@@ -34,6 +35,9 @@ v1.0 - 24/09/06 - Initial release of this script.
     
     https://conditionalaccess.uk/my-windows-autopatch-experience/
     https://github.com/Lewis-Barry/Scripts/tree/main/WindowsUpdate
+
+.EXAMPLE
+Detect-WUPaths.ps1
 
 #> 
 
