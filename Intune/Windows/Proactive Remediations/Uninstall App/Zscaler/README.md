@@ -10,3 +10,7 @@ Below are the settings configured under the ***Settings*** section of the proact
 | Run this script using the logged-on credentials | **No** |
 | Enforce script signature check | **No** |
 | Run script in 64-bit PowerShell | **Yes** |
+
+![CustomCompliancePolicy](https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive Remediations/media/proactive-remediation-uninstall-app-zscaler-configuration.png?raw=true)
+
+![CustomCompliancePolicy](https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Compliance/media/CompliancePolicyResult1.png?raw=true)
