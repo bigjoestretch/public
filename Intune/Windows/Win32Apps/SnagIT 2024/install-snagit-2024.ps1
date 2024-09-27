@@ -9,7 +9,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/tree/main/Intune/Win32Apps/SnagIT%202024
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Win32Apps/SnagIT%202024
 
 
 .ICONURI
