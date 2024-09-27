@@ -28,9 +28,13 @@ v1.0 - 24/09/13 - Initial release of this script.
 .SYNOPSIS
     This script package will attempt to remove the Zscaler application on the targeted devices.
     This script is used as detection script with Proactive Remediations in the Microsoft Intune admin center.
+
 .DESCRIPTION
     Uninstall the Zscaler application.
-       
+
+.EXAMPLE
+Remediate-Zscaler.ps1
+
 #>
 
 # Remediation script
