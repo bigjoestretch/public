@@ -12,7 +12,7 @@ N/A
 
 ## Intune Compliance JSON
 
-[Cisco Umbrella service Compliance Policy](./Detect-Cisco-Umbrella.json)
+[Cisco Umbrella service Compliance Policy](./Detect-Cisco-Umbrella.JSON)
 
 For compliance, the expected results are:
 
