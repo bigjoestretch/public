@@ -34,7 +34,10 @@ v1.0 - 23/05/23 - Initial release of this script.
 
 .LINK
     https://cloudinfra.net/create-a-local-admin-using-intune-and-powershell/
-        
+
+.EXAMPLE
+Remediate-Local_Admin_Account.ps1
+
 #>
 
 # Remediation script
