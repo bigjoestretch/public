@@ -12,7 +12,7 @@ N/A
 
 ## Intune Compliance JSON
 
-[Netskope Client service Compliance Policy](./Detect-Netskope.json)
+[Netskope Client service Compliance Policy](./Detect-Netskope.JSON)
 
 For compliance, the expected results are:
 
