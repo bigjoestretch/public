@@ -44,8 +44,8 @@ Below are the settings configured under the ***Detection rules*** section of the
 |  |  |
 | **Detection rules** |  |
 | Rule type | **File** |
-| Path | C:\java\jdk21\bin\ |
-| File or folder | **java.exe** |
+| Path | C:\Program Files (x86)\CentraStage |
+| File or folder | **Gui.exe** |
 | Detection method | **File or folder exists** |
 | Associated with a 32-bit app on 64-bit clients | **No** |
 
