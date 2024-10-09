@@ -7,8 +7,8 @@ Below are the settings configured under the ***Program*** section of the app con
 
 | Description | Value |
 | --- | --- |
-| Install command | **powershell.exe -ExecutionPolicy Bypass -File [install-zulu-jre.ps1](./install-zulu-jre.ps1)** |
-| Uninstall command | **powershell.exe -ExecutionPolicy Bypass -File [uninstall-zulu-jre.ps1](./uninstall-zulu-jre.ps1)** |
+| Install command | **powershell.exe -ExecutionPolicy Bypass -File [IntelyCare_Datto_RMM_Agent_Install-Vidal.ps1](./IntelyCare_Datto_RMM_Agent_Install-Vidal.ps1)** |
+| Uninstall command | **[Datto_RMM_Agent_Uninstall.cmd](./Datto_RMM_Agent_Uninstall.cmd)** |
 | Installation time required (mins) | **60** |
 | Allow available uninstall | **Yes** |
 | Install behavior | **System** |
