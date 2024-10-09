@@ -57,7 +57,7 @@ Source: [Create a compliance policy in Microsoft Intune](https://learn.microsoft
 Now wait for the Compliance policy to be processed on the client. Run the following command on a device that has the policy assigned to enforece the Intune policy synch.
 
 ```powershell
-# Trigger Intune Synch
+# Trigger Intune Sync
 Start-Process -FilePath "C:\Program Files (x86)\Microsoft Intune Management Extension\Microsoft.Management.Services.IntuneWindowsAgent.exe" -ArgumentList intunemanagementextension://synccompliance
 ```
 
