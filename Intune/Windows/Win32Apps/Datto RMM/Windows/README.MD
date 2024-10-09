@@ -1,6 +1,6 @@
-# Microsoft Intune - Windows app (Win32) - Azul Zulu OpenJRE
+# Microsoft Intune - Windows app (Win32) - Datto RMM
 
-This Intune Windows app (Win32) deploys the Azul Zulu OpenJRE application to assigned users/devices in Microsoft Intune (formerlly Microsoft Endpoint)
+This Intune Windows app (Win32) deploys the Kaseya Datto RMM application to assigned users/devices in Microsoft Intune (formerlly Microsoft Endpoint)
 
 ## Intune Windows app (Win32) Configuration
 Below are the settings configured under the ***Program*** section of the app configuration:
