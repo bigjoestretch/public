@@ -11,4 +11,7 @@ This section is for scripts that install or configure applications on Windows.
 ```
    |-Win32Apps
    |---Azul Zulu OpenJRE
+   |---Datto RMM
+   |-----Windows
+   |-----macOS
    |---SnagIT 2024
