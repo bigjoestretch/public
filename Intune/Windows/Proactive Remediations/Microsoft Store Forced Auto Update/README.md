@@ -11,4 +11,4 @@ Below are the settings configured under the ***Settings*** section of the proact
 | Enforce script signature check | **No** |
 | Run script in 64-bit PowerShell | **No** |
 
-![ProactiveRemediationConfiguration](https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/media/proactive-remediation-uninstall-app-zscaler-configuration.png?raw=true)
+![ProactiveRemediationConfiguration](https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/media/proactive-remediation-force-update-microsoft-store-apps.png?raw=true)
