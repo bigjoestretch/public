@@ -26,6 +26,7 @@ This repository contains detection/discovery scripts and JSON files for Microsof
    |---Clear Microsoft Apps Cache
    |---Create Local Admin Account
    |---Disable Windows Fast Boot
+   |---Microsoft Store Forced Auto Update
    |---Uninstall App
    |------Zscaler
    |---Windows Update
