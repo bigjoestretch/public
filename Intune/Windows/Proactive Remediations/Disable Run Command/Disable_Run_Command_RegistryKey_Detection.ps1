@@ -9,7 +9,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/Disable%20Run%20Command/Disable_Run_Command_RegistryKey_Detection.ps1
+https://github.com/bigjoestretch/public/blob/main/Intune/Windows/Proactive%20Remediations/Disable%20Run%20Command
 
 .ICONURI
 
