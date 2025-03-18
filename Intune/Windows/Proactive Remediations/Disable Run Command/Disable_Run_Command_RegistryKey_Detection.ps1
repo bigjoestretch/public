@@ -39,7 +39,7 @@ This Microsoft Intune Proactive Remediation script will check the Windows regist
 #Per: https://www.majorgeeks.com/content/page/disable_run_command.html
 #Per: https://mikemdm.de/2023/06/04/create-or-set-registry-keys-in-intune-using-proactive-remediations/
 
-#Set variabled
+#Set variable
 
 $regkey="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\"
 $name="NoRun"
