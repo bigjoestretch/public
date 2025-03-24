@@ -41,7 +41,7 @@ This Microsoft Intune Proactive Remediation script will check the Windows regist
 
 #Set variable
 
-$regkey="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\"
+$regkey="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer"
 $name="NoRun"
 $value=1
 
