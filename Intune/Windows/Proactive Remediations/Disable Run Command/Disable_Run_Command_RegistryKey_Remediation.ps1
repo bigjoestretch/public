@@ -41,7 +41,7 @@ This Microsoft Intune Proactive Remediation script will create a Windows registr
 
 #Set Variable
 
-$regkey="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\"
+$regkey="HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer"
 $name="NoRun"
 $value=1
 
