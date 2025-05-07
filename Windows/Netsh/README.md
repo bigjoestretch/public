@@ -9,7 +9,7 @@ This Netsh PowerShell script performs the following:
 
 ## Netsh Multi Trace Script
 
-[Netsh](./Detect-Cisco-Umbrella.ps1)
+[Netsh](./netsh_multi_trace.ps1)
 
 ## 🔧 Requirements:
 
