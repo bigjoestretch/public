@@ -1,14 +1,26 @@
-# Microsoft Intune Scripts
-This repository contains various scripts used to deploy various apps and configurations using Microsoft Intune.
+# Microsoft Windows - Netsh
 
-The scripts provided here are for education and showing what is possible. You are encouraged to download, test and enhance for your own use.
+This Netsh PowerShell script performs the following:
 
-The Repo is split into the folowing sections:
+✅ Captures three 60-minute netsh traces
+🕒 Saves each with a timestamped .etl filename
+📦 Compresses each completed trace into a .zip file using Compress-Archive
+❗ Includes error handling and auto-creates the output directory
 
+## Netsh Multi Trace Script
+
+[Netsh](./Detect-Cisco-Umbrella.ps1)
+
+## 🔧 Requirements:
+
+PowerShell 5.0+ (for Compress-Archive)
+
+Sufficient disk space in C:\TempRun the below command in PowerShell to check the compliance script results on the device.
+
+## 📁 Output:
+Each capture will result in a .zip file like:
+
+```powershell
+# makefile
+C:\Temp\nettrace_20250507_160002.zip
 ```
-   |-Intune
-   |---Windows
-   |---macOS
-   ```
-## Disclaimer
-Understand the impact of each sample script prior to running it; samples should be run in a non-production or "test" environment.
