@@ -9,7 +9,7 @@
 https://github.com/bigjoestretch/public/blob/main/LICENSE
 
 .PROJECTURI
-https://github.com/bigjoestretch/public/blob/main/
+https://github.com/bigjoestretch/public/tree/main/Windows/Netsh
 
 .ICONURI
 
