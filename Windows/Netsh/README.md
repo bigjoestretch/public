@@ -3,8 +3,11 @@
 This Netsh PowerShell script performs the following:
 
 ✅ Captures three 60-minute netsh traces
+
 🕒 Saves each with a timestamped .etl filename
+
 📦 Compresses each completed trace into a .zip file using Compress-Archive
+
 ❗ Includes error handling and auto-creates the output directory
 
 ## Netsh Multi Trace Script
