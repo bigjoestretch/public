@@ -13,13 +13,14 @@ This PowerCLI script allows you to authenticate with PowerCLI by using your Micr
 ## 🔧 Requirements:
 
 PowerShell 5.0+
+
 VMware PowerCLI 13
 
 ## 📁 Output:
 The script (once configured for yoru enviroment) will return a successful login prompt:
 
 ```powershell
-# makefile
+# output
 Name                           Port  User
 ----                           ----  ----
 itlabvc.chboston.org           443   CHBOSTON.ORG\ch267…
