@@ -12,9 +12,9 @@ This PowerCLI script allows you to authenticate with PowerCLI by using your Micr
 
 ## 🔧 Requirements:
 
-PowerShell 5.0+
+• PowerShell 5.0+
 
-VMware PowerCLI 13
+• VMware PowerCLI 13
 
 ## 📁 Output:
 The script (once configured for your enviroment) will return a successful login prompt:
