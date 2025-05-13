@@ -4,7 +4,7 @@ This PowerCLI script allows you to authenticate with PowerCLI by using your Micr
 
 ✅ Create a new OAuth2 client
 
-🕒 Allows you to use the configured values to login to your vCenter Server using PowerCLI
+📜 Allows you to use the configured values to login to your vCenter Server using PowerCLI
 
 ## PowerCLI Entra ID authentication Script
 
