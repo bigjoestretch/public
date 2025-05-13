@@ -23,5 +23,5 @@ The script (once configured for your enviroment) will return a successful login 
 # output
 Name                           Port  User
 ----                           ----  ----
-itlabvc.chboston.org           443   CHBOSTON.ORG\ch267…
+tes.testing.org           443   TESTING.ORG\test01…
 ```
