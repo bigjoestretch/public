@@ -33,12 +33,12 @@ Example output:
 
 Name                           Port  User
 ----                           ----  ----
-itlabvc.chboston.org		   443   LAB.ENTERPRISEADMINS.ORG\h163…
+test.testing.org               443   TESTING.ORG\test01…
 
 #>
 
 # Define the vCenter Server URL 				#e.g. $vCenterServer = "https://<Your_vCenter_Server_FQDN>"
-$vCenterServer = "itlabvc.chboston.org"
+$vCenterServer = "<Your_vCenter_Server_FQDN"
 
 # Create a new OAuth2 client
 
@@ -85,5 +85,5 @@ Connect-VIServer -Server '$vCenterServer' -SamlSecurityContext $samlSecContext
 
 Name                           Port  User
 ----                           ----  ----
-itlabvc.chboston.org 		   443   CHBOSTON.ORG\ch267257@chboston.org
+test.testing.org               443   TESTING.ORG\test01…
 #>
