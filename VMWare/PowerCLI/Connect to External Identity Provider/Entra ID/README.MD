@@ -1,1 +1,26 @@
-Test
+# PowerCLI - Connect to External Identity Provider (Entra ID)
+
+This PowerCLI script allows you to authenticate with PowerCLI by using your Microsoft Entra ID credentials. The script does the following:
+
+✅ Create a new OAuth2 client
+
+🕒 Allows you to use the configured values to login to your vCenter Server using PowerCLI
+
+## PowerCLI Entra ID authentication Script
+
+[powercli_entra_id_connect_vcenter](./powercli_entra_id_connect_vcenter.ps1)
+
+## 🔧 Requirements:
+
+PowerShell 5.0+
+VMware PowerCLI 13
+
+## 📁 Output:
+The script (once configured for yoru enviroment) will return a successful login prompt:
+
+```powershell
+# makefile
+Name                           Port  User
+----                           ----  ----
+itlabvc.chboston.org           443   CHBOSTON.ORG\ch267…
+```
