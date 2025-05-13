@@ -17,7 +17,7 @@ PowerShell 5.0+
 VMware PowerCLI 13
 
 ## 📁 Output:
-The script (once configured for yoru enviroment) will return a successful login prompt:
+The script (once configured for your enviroment) will return a successful login prompt:
 
 ```powershell
 # output
